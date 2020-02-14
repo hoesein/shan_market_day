@@ -1,0 +1,155 @@
+{
+    "tgi_z" : {
+        "tgi_z" : {
+            "tgi_z_eng" :"taunggyi zay",
+            "tgi_z_mm" : "တောင်ကြီး"
+        },
+        "abn_z" : {
+            "abn_z_eng" : "aung ban zay",
+            "abn_z_mm" : "အောင်ဘန်း"
+        },
+        "st_z" : "sat tay zay",
+        "ym_z" : {
+            "ym_z_eng" : "ywar ma zay",
+            "ym_z_mm" : "ရွာမ"
+        },
+        "mgpy_z" : {
+            "mgpy_z_eng" : "moung pyoe zay",
+            "mgpy_z_mm" : "မိုင်းပျိုး"
+        },
+        "pk_z" : "pin khun zay",
+        "plo_z" : {
+            "plo_z_eng" : "pinlon zay",
+            "plo_z_mm" : "ပင်လုံ"
+        },
+        "alc_z" : {
+            "alc_z_eng" : "ah lel chaung zay",
+            "alc_z_mm" : "အလယ်ချောင်"
+        },
+        "m_z" : {
+            "m_z_eng" : "myaing zay",
+            "m_z_mm" : "မြိုင်"
+        }
+    },
+    "tnn_z" : {
+        "tnn_z" : {
+            "tnn_z_eng" : "taung ni zay",
+            "tnn_z_mm" : "​ တောင်နီ"
+        },
+        "by_z" : "ban yin zay",
+        "plg_z" : "pin long zay",
+        "pdo_z" : "phaung daw oo zay",
+        "bz_z" : "baw zaing zay",
+        "phl_z" : "pwa hla zay",
+        "mt_z" : "moi tauk zay",
+        "kt_z" : "koung thar zay",
+        "nt_z" : "nang tine zay",
+        "kb_z" : "kaung bo zay",
+        "lk_z" : "lin kae zay",
+        "wz_z" : "won zat zay"
+    },
+    "snn_z" : {
+        "snn_z" : {
+            "snn_z_eng" : "shwenyaung zay",
+            "snn_z_mm" : "ရွှေညောင်"
+        },
+        "klw_z" : {
+            "klw_z_eng" : "kalaw zay",
+            "klw_z_mm" : "ကလော"
+        },
+        "pp_z" : "phin phit zay",
+        "kt_z" : "kaung tine zay",
+        "int_z" : "inn tain zay",
+        "nmo_z" : "naung mon zay",
+        "mi_z" : "moi inn zay",
+        "ktt_z" : "kout tan zay",
+        "mwb_z" : "mawbe zay",
+        "pek_z" : {
+            "pek_z_eng" : "pekon zay",
+            "pek_z_mm" : "ဖယ်ခုံ"
+        },
+        "sle_z" : {
+            "sle_z_eng" : "sale zay",
+            "sle_z_mm" : "ဇလဲ"
+        },
+        "yeo_z" : "ye oo zay",
+        "min_z" : "moi nang zay"
+    },
+    "nns_z" : {
+        "nns_z" : {
+            "nns_z_eng" : "nyaungshwe zay",
+            "nns_z_mm" : "ညောင်ရွှေ"
+        },
+        "hpg_z" : {
+            "hpg_z_eng" : "hopong zay",
+            "hpg_z_mm" : "ဟိုပုံး"
+        },
+        "lwk_z" : {
+            "lwk_z_eng" : "lawksawk zay",
+            "lwk_z_mm" : "ရပ်စောက်"
+        },
+        "pdy_z" : {
+            "pdy_z_eng" : "pindaya zay",
+            "pdy_z_mm" : "ပင်းတယ"
+        },
+        "ngp_z" : {
+            "ngp_z_eng" : "nang pang zay",
+            "ngp_z_mm" : "နန်းပန်"
+        },
+        "sak_z" : "sakar zay",
+        "hms_z" : {
+            "hms_z_eng" : "ham hsee zay",
+            "hsm_z_mm" : "ဟမ်းဆီ"            
+        },
+        "mgp_z" : {
+            "mgp_z_eng" : "mongpawn zay",
+            "mgp_z_mm" : "မိုင်းပွန်"
+        },
+        "ttk_z" : "tikyit zay",
+        "bak_z" : "bankwal zay",
+        "mby_z" : "moe byal zay",
+        "sgp_z" : "saung pyaung zay",
+        "hshsi_z" : {
+            "hshsi_z_eng" : "hsihseg zay",
+            "hshsi_z_mm" : "ဆီဆိုင်"
+        },
+        "mgn_z" : {
+            "mgn_z_eng" : "mongnai zay",
+            "mgn_z_mm" : "မိုးနဲ"
+        },
+        "mwm_z" : {
+            "mwm_z_eng" : "mawkmai zay",
+            "mwm_z_mm" : " မာက်မယ်"
+        },
+        "yng_z" : {
+            "yng_z_eng" : "ywangan zay",
+            "yng_z_mm" : "ရွာငံ"
+        },
+        "ming_z" : "moi naung zay"
+    },
+    "hh_z" : {
+        "hh_z" : "heho zay",
+        "lkw_z" : "loikaw zay",
+        "sik_z" : "sikoung zay",
+        "pd_z" : "paung daw zay",
+        "kog_z" : "koug zay", // ကျုံးဈေး
+        "ktlo_z" : {
+            "ktlo_z_eng" : "kyauk ta lone zay",
+            "ktlo_z_mm" : "ကျောက်တလုံး"
+        },
+        "tgt_z" : "taung to zay",
+        "tgh_z" : "than htoung zay",
+        "nrb_z" : "nar boung zay",
+        "ngs_z" : "nang si zay",
+        "ll_z" : "loi len zay",
+        "nty_z" : "naung tayar zay",
+        "nsg_z" : "nangsam zay",
+        "ngw_z" : "naung woo zay",
+        "kyg_z" : "kyout guu zay",
+        "mgk_z" : { 
+            "mgk_z_eng" : "mongkaing zay",
+            "mgk_z_mm" : "မိုင်းကိုင်"
+        },
+        "prl_z" : "phar lae zay"
+    }
+}
