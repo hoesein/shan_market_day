@@ -1,0 +1,45 @@
+{
+  "name": "shan-market-day",
+  "version": "1.0.0",
+  "description": "Scheduled Shan market-day lookup from civil-date Julian Day Numbers",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "TECHNICAL.md"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run build && tsc -p test/types/tsconfig.json && node --test test/*.test.mjs",
+    "check:release": "node scripts/check-release.mjs",
+    "prepack": "npm run typecheck && npm run build",
+    "prepublishOnly": "npm run check:release && npm test"
+  },
+  "dependencies": {
+    "mycal": "2.2.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  }
+}

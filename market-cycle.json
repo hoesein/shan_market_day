@@ -1,0 +1,27 @@
+{
+  "cycleLengthDays": 5,
+  "resetAtMonthBoundary": false,
+  "resetAtYearBoundary": false,
+  "groups": [
+    {
+      "id": "tgi_z",
+      "calendarRepresentativeMarketId": "tgi_z_tgi_z"
+    },
+    {
+      "id": "tnn_z",
+      "calendarRepresentativeMarketId": "tnn_z_plg_z"
+    },
+    {
+      "id": "snn_z",
+      "calendarRepresentativeMarketId": "snn_z_klw_z"
+    },
+    {
+      "id": "nns_z",
+      "calendarRepresentativeMarketId": "nns_z_nns_z"
+    },
+    {
+      "id": "hh_z",
+      "calendarRepresentativeMarketId": "hh_z_hh_z"
+    }
+  ]
+}

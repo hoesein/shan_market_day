@@ -1,0 +1,2170 @@
+[
+  {
+    "id": "tgi_z_tgi_z",
+    "sourceGroupId": "tgi_z",
+    "sourceMarketId": "tgi_z",
+    "sourceLabels": {
+      "tgi_z_eng": "taunggyi zay",
+      "tgi_z_mm": "တောင်ကြီး"
+    },
+    "status": "approved",
+    "myanmarBasis": "source-label",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "TaunggyiGroup",
+      "index": 0
+    },
+    "sourceDemo": {
+      "en": "Taunggyi Zay",
+      "my": "တောင်ကြီးဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Taunggyi",
+        "my": "တောင်ကြီး"
+      },
+      "name": {
+        "en": "Taunggyi Zay",
+        "my": "တောင်ကြီးဈေး"
+      }
+    }
+  },
+  {
+    "id": "tgi_z_abn_z",
+    "sourceGroupId": "tgi_z",
+    "sourceMarketId": "abn_z",
+    "sourceLabels": {
+      "abn_z_eng": "aung ban zay",
+      "abn_z_mm": "အောင်ဘန်း"
+    },
+    "status": "approved",
+    "myanmarBasis": "source-label",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "TaunggyiGroup",
+      "index": 1
+    },
+    "sourceDemo": {
+      "en": "Aungban Zay",
+      "my": "အောင်ပန်းဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Aungban",
+        "my": "အောင်ပန်း"
+      },
+      "name": {
+        "en": "Aungban Zay",
+        "my": "အောင်ပန်းဈေး"
+      }
+    }
+  },
+  {
+    "id": "tgi_z_ktlo_z",
+    "status": "approved",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "TaunggyiGroup",
+      "index": 2
+    },
+    "sourceDemo": {
+      "en": "Kyauk Ta Lone Zay",
+      "my": "ကျောက်တလုံးဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Kyauk Ta Lone",
+        "my": "ကျောက်တလုံး"
+      },
+      "name": {
+        "en": "Kyauk Ta Lone Zay",
+        "my": "ကျောက်တလုံးဈေး"
+      }
+    },
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix."
+  },
+  {
+    "id": "tgi_z_nam_khut",
+    "status": "approved",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "TaunggyiGroup",
+      "index": 3
+    },
+    "sourceDemo": {
+      "en": "Nam Khut Zay",
+      "my": "နမ့်ခုတ်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Nam Khut",
+        "my": "နမ့်ခုတ်"
+      },
+      "name": {
+        "en": "Nam Khut Zay",
+        "my": "နမ့်ခုတ်ဈေး"
+      }
+    },
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix."
+  },
+  {
+    "id": "tgi_z_ym_z",
+    "sourceGroupId": "tgi_z",
+    "sourceMarketId": "ym_z",
+    "sourceLabels": {
+      "ym_z_eng": "ywar ma zay",
+      "ym_z_mm": "ရွာမ"
+    },
+    "status": "approved",
+    "myanmarBasis": "source-label",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "TaunggyiGroup",
+      "index": 4
+    },
+    "sourceDemo": {
+      "en": "Ywar Ma Yae Paw Zay",
+      "my": "ရွာမရေပေါ်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Ywar Ma Yae Paw",
+        "my": "ရွာမရေပေါ်"
+      },
+      "name": {
+        "en": "Ywar Ma Yae Paw Zay",
+        "my": "ရွာမရေပေါ်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "tgi_z_mgpy_z",
+    "sourceGroupId": "tgi_z",
+    "sourceMarketId": "mgpy_z",
+    "sourceLabels": {
+      "mgpy_z_eng": "moung pyoe zay",
+      "mgpy_z_mm": "မိုင်းပျိုး"
+    },
+    "status": "approved",
+    "myanmarBasis": "source-label",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "TaunggyiGroup",
+      "index": 5
+    },
+    "sourceDemo": {
+      "en": "Moung Pyoe Zay",
+      "my": "မိုင်းပျိုးဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Moung Pyoe",
+        "my": "မိုင်းပျိုး"
+      },
+      "name": {
+        "en": "Moung Pyoe Zay",
+        "my": "မိုင်းပျိုးဈေး"
+      }
+    }
+  },
+  {
+    "id": "tgi_z_pk_z",
+    "sourceGroupId": "tgi_z",
+    "sourceMarketId": "pk_z",
+    "sourceLabels": "pin khun zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "TaunggyiGroup",
+      "index": 6
+    },
+    "sourceDemo": {
+      "en": "Pin Khun Zay",
+      "my": "ပင်ခွန်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Pin Khun",
+        "my": "ပင်ခွန်"
+      },
+      "name": {
+        "en": "Pin Khun Zay",
+        "my": "ပင်ခွန်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "tgi_z_lon_pyoe",
+    "status": "approved",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "TaunggyiGroup",
+      "index": 7
+    },
+    "sourceDemo": {
+      "en": "Lon Pyoe Zay",
+      "my": "လုံပိုးဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Lon Pyoe",
+        "my": "လုံပိုး"
+      },
+      "name": {
+        "en": "Lon Pyoe Zay",
+        "my": "လုံပိုးဈေး"
+      }
+    },
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix."
+  },
+  {
+    "id": "tgi_z_m_z",
+    "sourceGroupId": "tgi_z",
+    "sourceMarketId": "m_z",
+    "sourceLabels": {
+      "m_z_eng": "myaing zay",
+      "m_z_mm": "မြိုင်"
+    },
+    "status": "approved",
+    "myanmarBasis": "source-label",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "TaunggyiGroup",
+      "index": 8
+    },
+    "sourceDemo": {
+      "en": "Myaing Zay",
+      "my": "မြိုင်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Myaing",
+        "my": "မြိုင်"
+      },
+      "name": {
+        "en": "Myaing Zay",
+        "my": "မြိုင်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "tgi_z_st_z",
+    "sourceGroupId": "tgi_z",
+    "sourceMarketId": "st_z",
+    "sourceLabels": "sat tay zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "TaunggyiGroup",
+      "index": 9
+    },
+    "sourceDemo": {
+      "en": "Sat Tay Zay",
+      "my": "ဆတ်သေဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Sat Tay",
+        "my": "ဆတ်သေ"
+      },
+      "name": {
+        "en": "Sat Tay Zay",
+        "my": "ဆတ်သေဈေး"
+      }
+    }
+  },
+  {
+    "id": "tgi_z_plo_z",
+    "sourceGroupId": "tgi_z",
+    "sourceMarketId": "plo_z",
+    "sourceLabels": {
+      "plo_z_eng": "pinlon zay",
+      "plo_z_mm": "ပင်လုံ"
+    },
+    "status": "approved",
+    "myanmarBasis": "source-label",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "TaunggyiGroup",
+      "index": 10
+    },
+    "sourceDemo": {
+      "en": "Pinlon Zay",
+      "my": "ပင်လုံဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Pinlon",
+        "my": "ပင်လုံ"
+      },
+      "name": {
+        "en": "Pinlon Zay",
+        "my": "ပင်လုံဈေး"
+      }
+    }
+  },
+  {
+    "id": "tgi_z_alc_z",
+    "sourceGroupId": "tgi_z",
+    "sourceMarketId": "alc_z",
+    "sourceLabels": {
+      "alc_z_eng": "ah lel chaung zay",
+      "alc_z_mm": "အလယ်ချောင်"
+    },
+    "status": "approved",
+    "myanmarBasis": "source-label",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "TaunggyiGroup",
+      "index": 11
+    },
+    "sourceDemo": {
+      "en": "Ah Lel Chaung Zay",
+      "my": "အလယ်ချောင်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Ah Lel Chaung",
+        "my": "အလယ်ချောင်"
+      },
+      "name": {
+        "en": "Ah Lel Chaung Zay",
+        "my": "အလယ်ချောင်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "tnn_z_mt_z",
+    "sourceGroupId": "tnn_z",
+    "sourceMarketId": "mt_z",
+    "sourceLabels": "moi tauk zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "TaungNiGroup",
+      "index": 0
+    },
+    "sourceDemo": {
+      "en": "Moi Tauk Zay",
+      "my": "မိုင်းသောက်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Moi Tauk",
+        "my": "မိုင်းသောက်"
+      },
+      "name": {
+        "en": "Moi Tauk Zay",
+        "my": "မိုင်းသောက်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "tnn_z_plg_z",
+    "sourceGroupId": "tnn_z",
+    "sourceMarketId": "plg_z",
+    "sourceLabels": "pin long zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "TaungNiGroup",
+      "index": 1
+    },
+    "sourceDemo": {
+      "en": "Pin Laung Zay",
+      "my": "ပင်လောင်းဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Pin Laung",
+        "my": "ပင်လောင်း"
+      },
+      "name": {
+        "en": "Pin Laung Zay",
+        "my": "ပင်လောင်းဈေး"
+      }
+    }
+  },
+  {
+    "id": "tnn_z_nt_z",
+    "sourceGroupId": "tnn_z",
+    "sourceMarketId": "nt_z",
+    "sourceLabels": "nang tine zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "TaungNiGroup",
+      "index": 2
+    },
+    "sourceDemo": {
+      "en": "Nang Tine Zay",
+      "my": "နန်းတိုင်းဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Nang Tine",
+        "my": "နန်းတိုင်း"
+      },
+      "name": {
+        "en": "Nang Tine Zay",
+        "my": "နန်းတိုင်းဈေး"
+      }
+    }
+  },
+  {
+    "id": "tnn_z_tnn_z",
+    "sourceGroupId": "tnn_z",
+    "sourceMarketId": "tnn_z",
+    "sourceLabels": {
+      "tnn_z_eng": "taung ni zay",
+      "tnn_z_mm": "​ တောင်နီ"
+    },
+    "status": "approved",
+    "myanmarBasis": "source-label",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "TaungNiGroup",
+      "index": 3
+    },
+    "sourceDemo": {
+      "en": "Taung Ni Zay",
+      "my": "တောင်နီဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Taung Ni",
+        "my": "တောင်နီ"
+      },
+      "name": {
+        "en": "Taung Ni Zay",
+        "my": "တောင်နီဈေး"
+      }
+    }
+  },
+  {
+    "id": "tnn_z_pdo_z",
+    "sourceGroupId": "tnn_z",
+    "sourceMarketId": "pdo_z",
+    "sourceLabels": "phaung daw oo zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "TaungNiGroup",
+      "index": 4
+    },
+    "sourceDemo": {
+      "en": "Phaung Daw Oo Zay",
+      "my": "ဖောင်တော်ဦးဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Phaung Daw Oo",
+        "my": "ဖောင်တော်ဦး"
+      },
+      "name": {
+        "en": "Phaung Daw Oo Zay",
+        "my": "ဖောင်တော်ဦးဈေး"
+      }
+    }
+  },
+  {
+    "id": "tnn_z_by_z",
+    "sourceGroupId": "tnn_z",
+    "sourceMarketId": "by_z",
+    "sourceLabels": "ban yin zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "TaungNiGroup",
+      "index": 5
+    },
+    "sourceDemo": {
+      "en": "Ban Yin Zay",
+      "my": "ဘန်းယဉ်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Ban Yin",
+        "my": "ဘန်းယဉ်"
+      },
+      "name": {
+        "en": "Ban Yin Zay",
+        "my": "ဘန်းယဉ်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "tnn_z_phl_z",
+    "sourceGroupId": "tnn_z",
+    "sourceMarketId": "phl_z",
+    "sourceLabels": "pwa hla zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "TaungNiGroup",
+      "index": 6
+    },
+    "sourceDemo": {
+      "en": "Pwa Hla Zay",
+      "my": "ပွေးလှဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Pwa Hla",
+        "my": "ပွေးလှ"
+      },
+      "name": {
+        "en": "Pwa Hla Zay",
+        "my": "ပွေးလှဈေး"
+      }
+    }
+  },
+  {
+    "id": "tnn_z_bz_z",
+    "sourceGroupId": "tnn_z",
+    "sourceMarketId": "bz_z",
+    "sourceLabels": "baw zaing zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "TaungNiGroup",
+      "index": 7
+    },
+    "sourceDemo": {
+      "en": "Baw Zaing Zay",
+      "my": "ဘော်ဆိုင်းဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Baw Zaing",
+        "my": "ဘော်ဆိုင်း"
+      },
+      "name": {
+        "en": "Baw Zaing Zay",
+        "my": "ဘော်ဆိုင်းဈေး"
+      }
+    }
+  },
+  {
+    "id": "tnn_z_kb_z",
+    "sourceGroupId": "tnn_z",
+    "sourceMarketId": "kb_z",
+    "sourceLabels": "kaung bo zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "TaungNiGroup",
+      "index": 8
+    },
+    "sourceDemo": {
+      "en": "Kaung Bo Zay",
+      "my": "ကောင်းဘို့ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Kaung Bo",
+        "my": "ကောင်းဘို့"
+      },
+      "name": {
+        "en": "Kaung Bo Zay",
+        "my": "ကောင်းဘို့ဈေး"
+      }
+    }
+  },
+  {
+    "id": "tnn_z_kt_z",
+    "sourceGroupId": "tnn_z",
+    "sourceMarketId": "kt_z",
+    "sourceLabels": "koung thar zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "TaungNiGroup",
+      "index": 9
+    },
+    "sourceDemo": {
+      "en": "Koung Thar Zay",
+      "my": "ကောင်သာဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Koung Thar",
+        "my": "ကောင်သာ"
+      },
+      "name": {
+        "en": "Koung Thar Zay",
+        "my": "ကောင်သာဈေး"
+      }
+    }
+  },
+  {
+    "id": "tnn_z_lk_z",
+    "sourceGroupId": "tnn_z",
+    "sourceMarketId": "lk_z",
+    "sourceLabels": "lin kae zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "TaungNiGroup",
+      "index": 10
+    },
+    "sourceDemo": {
+      "en": "Lin Kae Zay",
+      "my": "လင်းကေးဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Lin Kae",
+        "my": "လင်းကေး"
+      },
+      "name": {
+        "en": "Lin Kae Zay",
+        "my": "လင်းကေးဈေး"
+      }
+    }
+  },
+  {
+    "id": "snn_z_snn_z",
+    "sourceGroupId": "snn_z",
+    "sourceMarketId": "snn_z",
+    "sourceLabels": {
+      "snn_z_eng": "shwenyaung zay",
+      "snn_z_mm": "ရွှေညောင်"
+    },
+    "status": "approved",
+    "myanmarBasis": "source-label",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "ShweNyaungGroup",
+      "index": 0
+    },
+    "sourceDemo": {
+      "en": "Shwe Nyaung Zay",
+      "my": "ရွှေညောင်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Shwe Nyaung",
+        "my": "ရွှေညောင်"
+      },
+      "name": {
+        "en": "Shwe Nyaung Zay",
+        "my": "ရွှေညောင်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "snn_z_int_z",
+    "sourceGroupId": "snn_z",
+    "sourceMarketId": "int_z",
+    "sourceLabels": "inn tain zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "ShweNyaungGroup",
+      "index": 1
+    },
+    "sourceDemo": {
+      "en": "Inn Tain Zay",
+      "my": "အင်းတိမ်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Inn Tain",
+        "my": "အင်းတိမ်"
+      },
+      "name": {
+        "en": "Inn Tain Zay",
+        "my": "အင်းတိမ်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "snn_z_kt_z",
+    "sourceGroupId": "snn_z",
+    "sourceMarketId": "kt_z",
+    "sourceLabels": "kaung tine zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "ShweNyaungGroup",
+      "index": 2
+    },
+    "sourceDemo": {
+      "en": "Kaung Tine Zay",
+      "my": "ခေါင်တိုင်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Kaung Tine",
+        "my": "ခေါင်တိုင်"
+      },
+      "name": {
+        "en": "Kaung Tine Zay",
+        "my": "ခေါင်တိုင်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "snn_z_mwb_z",
+    "sourceGroupId": "snn_z",
+    "sourceMarketId": "mwb_z",
+    "sourceLabels": "mawbe zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "ShweNyaungGroup",
+      "index": 3
+    },
+    "sourceDemo": {
+      "en": "Mawbe Zay",
+      "my": "မှော်ဘီ(ဝါးတော)ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Mawbe",
+        "my": "မှော်ဘီ(ဝါးတော)"
+      },
+      "name": {
+        "en": "Mawbe Zay",
+        "my": "မှော်ဘီ(ဝါးတော)ဈေး"
+      }
+    }
+  },
+  {
+    "id": "snn_z_pek_z",
+    "sourceGroupId": "snn_z",
+    "sourceMarketId": "pek_z",
+    "sourceLabels": {
+      "pek_z_eng": "pekon zay",
+      "pek_z_mm": "ဖယ်ခုံ"
+    },
+    "status": "approved",
+    "myanmarBasis": "source-label",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "ShweNyaungGroup",
+      "index": 4
+    },
+    "sourceDemo": {
+      "en": "Pekhon Zay",
+      "my": "ဖယ်ခုံဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Pekhon",
+        "my": "ဖယ်ခုံ"
+      },
+      "name": {
+        "en": "Pekhon Zay",
+        "my": "ဖယ်ခုံဈေး"
+      }
+    }
+  },
+  {
+    "id": "snn_z_pp_z",
+    "sourceGroupId": "snn_z",
+    "sourceMarketId": "pp_z",
+    "sourceLabels": "phin phit zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "ShweNyaungGroup",
+      "index": 5
+    },
+    "sourceDemo": {
+      "en": "Phin Phit Zay",
+      "my": "ပင်ဖြစ်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Phin Phit",
+        "my": "ပင်ဖြစ်"
+      },
+      "name": {
+        "en": "Phin Phit Zay",
+        "my": "ပင်ဖြစ်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "snn_z_sle_z",
+    "sourceGroupId": "snn_z",
+    "sourceMarketId": "sle_z",
+    "sourceLabels": {
+      "sle_z_eng": "sale zay",
+      "sle_z_mm": "ဇလဲ"
+    },
+    "status": "approved",
+    "myanmarBasis": "source-label",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "ShweNyaungGroup",
+      "index": 6
+    },
+    "sourceDemo": {
+      "en": "Zale Zay",
+      "my": "ဇလဲဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Zale",
+        "my": "ဇလဲ"
+      },
+      "name": {
+        "en": "Zale Zay",
+        "my": "ဇလဲဈေး"
+      }
+    }
+  },
+  {
+    "id": "snn_z_nmo_z",
+    "sourceGroupId": "snn_z",
+    "sourceMarketId": "nmo_z",
+    "sourceLabels": "naung mon zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "ShweNyaungGroup",
+      "index": 7
+    },
+    "sourceDemo": {
+      "en": "Naung Mon Zay",
+      "my": "နောင်မွန်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Naung Mon",
+        "my": "နောင်မွန်"
+      },
+      "name": {
+        "en": "Naung Mon Zay",
+        "my": "နောင်မွန်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "snn_z_naung_kar",
+    "status": "approved",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "ShweNyaungGroup",
+      "index": 8
+    },
+    "sourceDemo": {
+      "en": "Naung Kar Zay",
+      "my": "နောင်ကားဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Naung Kar",
+        "my": "နောင်ကား"
+      },
+      "name": {
+        "en": "Naung Kar Zay",
+        "my": "နောင်ကားဈေး"
+      }
+    },
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix."
+  },
+  {
+    "id": "snn_z_klw_z",
+    "sourceGroupId": "snn_z",
+    "sourceMarketId": "klw_z",
+    "sourceLabels": {
+      "klw_z_eng": "kalaw zay",
+      "klw_z_mm": "ကလော"
+    },
+    "status": "approved",
+    "myanmarBasis": "source-label",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "ShweNyaungGroup",
+      "index": 9
+    },
+    "sourceDemo": {
+      "en": "Kalaw Zay",
+      "my": "ကလောဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Kalaw",
+        "my": "ကလော"
+      },
+      "name": {
+        "en": "Kalaw Zay",
+        "my": "ကလောဈေး"
+      }
+    }
+  },
+  {
+    "id": "snn_z_plo_z",
+    "status": "approved",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "ShweNyaungGroup",
+      "index": 10
+    },
+    "sourceDemo": {
+      "en": "Pine Lone Zay",
+      "my": "ပင်လုံဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Pine Lone",
+        "my": "ပင်လုံ"
+      },
+      "name": {
+        "en": "Pine Lone Zay",
+        "my": "ပင်လုံဈေး"
+      }
+    },
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix."
+  },
+  {
+    "id": "snn_z_hti_yone",
+    "status": "approved",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "ShweNyaungGroup",
+      "index": 11
+    },
+    "sourceDemo": {
+      "en": "Hti Yone Zay",
+      "my": "ထီယွန်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Hti Yone",
+        "my": "ထီယွန်"
+      },
+      "name": {
+        "en": "Hti Yone Zay",
+        "my": "ထီယွန်ဈေး"
+      }
+    },
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix."
+  },
+  {
+    "id": "snn_z_mi_z",
+    "sourceGroupId": "snn_z",
+    "sourceMarketId": "mi_z",
+    "sourceLabels": "moi inn zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "ShweNyaungGroup",
+      "index": 12
+    },
+    "sourceDemo": {
+      "en": "Moi Inn Zay",
+      "my": "မိုင်းအင်းဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Moi Inn",
+        "my": "မိုင်းအင်း"
+      },
+      "name": {
+        "en": "Moi Inn Zay",
+        "my": "မိုင်းအင်းဈေး"
+      }
+    }
+  },
+  {
+    "id": "snn_z_ktt_z",
+    "sourceGroupId": "snn_z",
+    "sourceMarketId": "ktt_z",
+    "sourceLabels": "kout tan zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "ShweNyaungGroup",
+      "index": 13
+    },
+    "sourceDemo": {
+      "en": "Kyauk Tan Zay",
+      "my": "ကျောက်တန်းဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Kyauk Tan",
+        "my": "ကျောက်တန်း"
+      },
+      "name": {
+        "en": "Kyauk Tan Zay",
+        "my": "ကျောက်တန်းဈေး"
+      }
+    }
+  },
+  {
+    "id": "snn_z_yeo_z",
+    "sourceGroupId": "snn_z",
+    "sourceMarketId": "yeo_z",
+    "sourceLabels": "ye oo zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "ShweNyaungGroup",
+      "index": 14
+    },
+    "sourceDemo": {
+      "en": "Ye Oo Zay",
+      "my": "ရေဦးဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Ye Oo",
+        "my": "ရေဦး"
+      },
+      "name": {
+        "en": "Ye Oo Zay",
+        "my": "ရေဦးဈေး"
+      }
+    }
+  },
+  {
+    "id": "snn_z_min_z",
+    "sourceGroupId": "snn_z",
+    "sourceMarketId": "min_z",
+    "sourceLabels": "moi nang zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "ShweNyaungGroup",
+      "index": 15
+    },
+    "sourceDemo": {
+      "en": "Moi Nang Zay",
+      "my": "မိုင်းနန်းဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Moi Nang",
+        "my": "မိုင်းနန်း"
+      },
+      "name": {
+        "en": "Moi Nang Zay",
+        "my": "မိုင်းနန်းဈေး"
+      }
+    }
+  },
+  {
+    "id": "nns_z_nns_z",
+    "sourceGroupId": "nns_z",
+    "sourceMarketId": "nns_z",
+    "sourceLabels": {
+      "nns_z_eng": "nyaungshwe zay",
+      "nns_z_mm": "ညောင်ရွှေ"
+    },
+    "status": "approved",
+    "myanmarBasis": "source-label",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "NyaungShweGroup",
+      "index": 0
+    },
+    "sourceDemo": {
+      "en": "Nyaung Shwe Zay",
+      "my": "ညောင်ရွေဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Nyaung Shwe",
+        "my": "ညောင်ရွေ"
+      },
+      "name": {
+        "en": "Nyaung Shwe Zay",
+        "my": "ညောင်ရွေဈေး"
+      }
+    }
+  },
+  {
+    "id": "nns_z_hpg_z",
+    "sourceGroupId": "nns_z",
+    "sourceMarketId": "hpg_z",
+    "sourceLabels": {
+      "hpg_z_eng": "hopong zay",
+      "hpg_z_mm": "ဟိုပုံး"
+    },
+    "status": "approved",
+    "myanmarBasis": "source-label",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "NyaungShweGroup",
+      "index": 1
+    },
+    "sourceDemo": {
+      "en": "Hopong Zay",
+      "my": "ဟိုပုံးဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Hopong",
+        "my": "ဟိုပုံး"
+      },
+      "name": {
+        "en": "Hopong Zay",
+        "my": "ဟိုပုံးဈေး"
+      }
+    }
+  },
+  {
+    "id": "nns_z_ngp_z",
+    "sourceGroupId": "nns_z",
+    "sourceMarketId": "ngp_z",
+    "sourceLabels": {
+      "ngp_z_eng": "nang pang zay",
+      "ngp_z_mm": "နန်းပန်"
+    },
+    "status": "approved",
+    "myanmarBasis": "source-label",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "NyaungShweGroup",
+      "index": 2
+    },
+    "sourceDemo": {
+      "en": "Nang Pan Zay",
+      "my": "နန်းပန်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Nang Pan",
+        "my": "နန်းပန်"
+      },
+      "name": {
+        "en": "Nang Pan Zay",
+        "my": "နန်းပန်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "nns_z_yng_z",
+    "sourceGroupId": "nns_z",
+    "sourceMarketId": "yng_z",
+    "sourceLabels": {
+      "yng_z_eng": "ywangan zay",
+      "yng_z_mm": "ရွာငံ"
+    },
+    "status": "approved",
+    "myanmarBasis": "source-label",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "NyaungShweGroup",
+      "index": 3
+    },
+    "sourceDemo": {
+      "en": "Ywangan Zay",
+      "my": "ရွာငံဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Ywangan",
+        "my": "ရွာငံ"
+      },
+      "name": {
+        "en": "Ywangan Zay",
+        "my": "ရွာငံဈေး"
+      }
+    }
+  },
+  {
+    "id": "nns_z_lwk_z",
+    "sourceGroupId": "nns_z",
+    "sourceMarketId": "lwk_z",
+    "sourceLabels": {
+      "lwk_z_eng": "lawksawk zay",
+      "lwk_z_mm": "ရပ်စောက်"
+    },
+    "status": "approved",
+    "myanmarBasis": "source-label",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "NyaungShweGroup",
+      "index": 4
+    },
+    "sourceDemo": {
+      "en": "Lawksawk Zay",
+      "my": "ရပ်စောက်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Lawksawk",
+        "my": "ရပ်စောက်"
+      },
+      "name": {
+        "en": "Lawksawk Zay",
+        "my": "ရပ်စောက်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "nns_z_bak_z",
+    "sourceGroupId": "nns_z",
+    "sourceMarketId": "bak_z",
+    "sourceLabels": "bankwal zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "NyaungShweGroup",
+      "index": 5
+    },
+    "sourceDemo": {
+      "en": "Bankwal Zay",
+      "my": "ဘန်ကွဲဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Bankwal",
+        "my": "ဘန်ကွဲ"
+      },
+      "name": {
+        "en": "Bankwal Zay",
+        "my": "ဘန်ကွဲဈေး"
+      }
+    }
+  },
+  {
+    "id": "nns_z_pdy_z",
+    "sourceGroupId": "nns_z",
+    "sourceMarketId": "pdy_z",
+    "sourceLabels": {
+      "pdy_z_eng": "pindaya zay",
+      "pdy_z_mm": "ပင်းတယ"
+    },
+    "status": "approved",
+    "myanmarBasis": "source-label",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "NyaungShweGroup",
+      "index": 6
+    },
+    "sourceDemo": {
+      "en": "Pindaya Zay",
+      "my": "ပင်းတယဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Pindaya",
+        "my": "ပင်းတယ"
+      },
+      "name": {
+        "en": "Pindaya Zay",
+        "my": "ပင်းတယဈေး"
+      }
+    }
+  },
+  {
+    "id": "nns_z_hshsi_z",
+    "sourceGroupId": "nns_z",
+    "sourceMarketId": "hshsi_z",
+    "sourceLabels": {
+      "hshsi_z_eng": "hsihseg zay",
+      "hshsi_z_mm": "ဆီဆိုင်"
+    },
+    "status": "approved",
+    "myanmarBasis": "source-label",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "NyaungShweGroup",
+      "index": 7
+    },
+    "sourceDemo": {
+      "en": "Hsi Hseng Zay",
+      "my": "ဆီဆိုင်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Hsi Hseng",
+        "my": "ဆီဆိုင်"
+      },
+      "name": {
+        "en": "Hsi Hseng Zay",
+        "my": "ဆီဆိုင်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "nns_z_sgp_z",
+    "sourceGroupId": "nns_z",
+    "sourceMarketId": "sgp_z",
+    "sourceLabels": "saung pyaung zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "NyaungShweGroup",
+      "index": 8
+    },
+    "sourceDemo": {
+      "en": "Saung Pyaung Zay",
+      "my": "ဆောင်ပြောင်းဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Saung Pyaung",
+        "my": "ဆောင်ပြောင်း"
+      },
+      "name": {
+        "en": "Saung Pyaung Zay",
+        "my": "ဆောင်ပြောင်းဈေး"
+      }
+    }
+  },
+  {
+    "id": "nns_z_ttk_z",
+    "sourceGroupId": "nns_z",
+    "sourceMarketId": "ttk_z",
+    "sourceLabels": "tikyit zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "NyaungShweGroup",
+      "index": 9
+    },
+    "sourceDemo": {
+      "en": "Tikyit Zay",
+      "my": "တီကျစ်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Tikyit",
+        "my": "တီကျစ်"
+      },
+      "name": {
+        "en": "Tikyit Zay",
+        "my": "တီကျစ်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "nns_z_hms_z",
+    "sourceGroupId": "nns_z",
+    "sourceMarketId": "hms_z",
+    "sourceLabels": {
+      "hms_z_eng": "ham hsee zay",
+      "hsm_z_mm": "ဟမ်းဆီ"
+    },
+    "status": "approved",
+    "myanmarBasis": "source-label",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "NyaungShweGroup",
+      "index": 10
+    },
+    "sourceDemo": {
+      "en": "Ham Hsee Zay",
+      "my": "ဟမ်းဆီးဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Ham Hsee",
+        "my": "ဟမ်းဆီး"
+      },
+      "name": {
+        "en": "Ham Hsee Zay",
+        "my": "ဟမ်းဆီးဈေး"
+      }
+    }
+  },
+  {
+    "id": "nns_z_sak_z",
+    "sourceGroupId": "nns_z",
+    "sourceMarketId": "sak_z",
+    "sourceLabels": "sakar zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "NyaungShweGroup",
+      "index": 11
+    },
+    "sourceDemo": {
+      "en": "Sakar Zay",
+      "my": "စံကားဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Sakar",
+        "my": "စံကား"
+      },
+      "name": {
+        "en": "Sakar Zay",
+        "my": "စံကားဈေး"
+      }
+    }
+  },
+  {
+    "id": "nns_z_mby_z",
+    "sourceGroupId": "nns_z",
+    "sourceMarketId": "mby_z",
+    "sourceLabels": "moe byal zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "NyaungShweGroup",
+      "index": 12
+    },
+    "sourceDemo": {
+      "en": "Moe Byal Zay",
+      "my": "မိုးဗြဲဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Moe Byal",
+        "my": "မိုးဗြဲ"
+      },
+      "name": {
+        "en": "Moe Byal Zay",
+        "my": "မိုးဗြဲဈေး"
+      }
+    }
+  },
+  {
+    "id": "nns_z_mgp_z",
+    "sourceGroupId": "nns_z",
+    "sourceMarketId": "mgp_z",
+    "sourceLabels": {
+      "mgp_z_eng": "mongpawn zay",
+      "mgp_z_mm": "မိုင်းပွန်"
+    },
+    "status": "approved",
+    "myanmarBasis": "source-label",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "NyaungShweGroup",
+      "index": 13
+    },
+    "sourceDemo": {
+      "en": "Mongpawn Zay",
+      "my": "မိုင်းပွန်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Mongpawn",
+        "my": "မိုင်းပွန်"
+      },
+      "name": {
+        "en": "Mongpawn Zay",
+        "my": "မိုင်းပွန်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "nns_z_le_char",
+    "status": "approved",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "NyaungShweGroup",
+      "index": 14
+    },
+    "sourceDemo": {
+      "en": "Le Char Zay",
+      "my": "လဲချားဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Le Char",
+        "my": "လဲချား"
+      },
+      "name": {
+        "en": "Le Char Zay",
+        "my": "လဲချားဈေး"
+      }
+    },
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix."
+  },
+  {
+    "id": "nns_z_mgn_z",
+    "sourceGroupId": "nns_z",
+    "sourceMarketId": "mgn_z",
+    "sourceLabels": {
+      "mgn_z_eng": "mongnai zay",
+      "mgn_z_mm": "မိုးနဲ"
+    },
+    "status": "approved",
+    "myanmarBasis": "source-label",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "NyaungShweGroup",
+      "index": 15
+    },
+    "sourceDemo": {
+      "en": "Mongnai Zay",
+      "my": "မိုးနဲဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Mongnai",
+        "my": "မိုးနဲ"
+      },
+      "name": {
+        "en": "Mongnai Zay",
+        "my": "မိုးနဲဈေး"
+      }
+    }
+  },
+  {
+    "id": "nns_z_mwm_z",
+    "sourceGroupId": "nns_z",
+    "sourceMarketId": "mwm_z",
+    "sourceLabels": {
+      "mwm_z_eng": "mawkmai zay",
+      "mwm_z_mm": " မာက်မယ်"
+    },
+    "status": "approved",
+    "myanmarBasis": "source-label",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "NyaungShweGroup",
+      "index": 16
+    },
+    "sourceDemo": {
+      "en": "Mawkmai Zay",
+      "my": "မောက်မယ်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Mawkmai",
+        "my": "မောက်မယ်"
+      },
+      "name": {
+        "en": "Mawkmai Zay",
+        "my": "မောက်မယ်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "nns_z_ming_z",
+    "sourceGroupId": "nns_z",
+    "sourceMarketId": "ming_z",
+    "sourceLabels": "moi naung zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "NyaungShweGroup",
+      "index": 17
+    },
+    "sourceDemo": {
+      "en": "Moi Naung Zay",
+      "my": "မိုင်းနောင်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Moi Naung",
+        "my": "မိုင်းနောင်"
+      },
+      "name": {
+        "en": "Moi Naung Zay",
+        "my": "မိုင်းနောင်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "hh_z_hh_z",
+    "sourceGroupId": "hh_z",
+    "sourceMarketId": "hh_z",
+    "sourceLabels": "heho zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "HehoGroup",
+      "index": 0
+    },
+    "sourceDemo": {
+      "en": "Heho Zay",
+      "my": "ဟဲဟိုးဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Heho",
+        "my": "ဟဲဟိုး"
+      },
+      "name": {
+        "en": "Heho Zay",
+        "my": "ဟဲဟိုးဈေး"
+      }
+    }
+  },
+  {
+    "id": "hh_z_ngw_z",
+    "sourceGroupId": "hh_z",
+    "sourceMarketId": "ngw_z",
+    "sourceLabels": "naung woo zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "HehoGroup",
+      "index": 1
+    },
+    "sourceDemo": {
+      "en": "Naung Woo Zay",
+      "my": "နောင်ဝိုးဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Naung Woo",
+        "my": "နောင်ဝိုး"
+      },
+      "name": {
+        "en": "Naung Woo Zay",
+        "my": "နောင်ဝိုးဈေး"
+      }
+    }
+  },
+  {
+    "id": "hh_z_sik_z",
+    "sourceGroupId": "hh_z",
+    "sourceMarketId": "sik_z",
+    "sourceLabels": "sikoung zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "HehoGroup",
+      "index": 2
+    },
+    "sourceDemo": {
+      "en": "Sikoung Zay",
+      "my": "ဆိုက်ခေါဝ်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Sikoung",
+        "my": "ဆိုက်ခေါဝ်"
+      },
+      "name": {
+        "en": "Sikoung Zay",
+        "my": "ဆိုက်ခေါဝ်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "hh_z_nrb_z",
+    "sourceGroupId": "hh_z",
+    "sourceMarketId": "nrb_z",
+    "sourceLabels": "nar boung zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "HehoGroup",
+      "index": 3
+    },
+    "sourceDemo": {
+      "en": "Nar Boung Zay",
+      "my": "နားဗောင်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Nar Boung",
+        "my": "နားဗောင်"
+      },
+      "name": {
+        "en": "Nar Boung Zay",
+        "my": "နားဗောင်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "hh_z_saung_pho",
+    "status": "approved",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "HehoGroup",
+      "index": 4
+    },
+    "sourceDemo": {
+      "en": "Saung Pho Zay",
+      "my": "ဆောင်းဖိုးဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Saung Pho",
+        "my": "ဆောင်းဖိုး"
+      },
+      "name": {
+        "en": "Saung Pho Zay",
+        "my": "ဆောင်းဖိုးဈေး"
+      }
+    },
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix."
+  },
+  {
+    "id": "hh_z_tgh_z",
+    "sourceGroupId": "hh_z",
+    "sourceMarketId": "tgh_z",
+    "sourceLabels": "than htoung zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "HehoGroup",
+      "index": 5
+    },
+    "sourceDemo": {
+      "en": "Than Htoung Zay",
+      "my": "သန်းတောင်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Than Htoung",
+        "my": "သန်းတောင်"
+      },
+      "name": {
+        "en": "Than Htoung Zay",
+        "my": "သန်းတောင်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "hh_z_tgt_z",
+    "sourceGroupId": "hh_z",
+    "sourceMarketId": "tgt_z",
+    "sourceLabels": "taung to zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "HehoGroup",
+      "index": 6
+    },
+    "sourceDemo": {
+      "en": "Taung To Zay",
+      "my": "တောင်တိုဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Taung To",
+        "my": "တောင်တို"
+      },
+      "name": {
+        "en": "Taung To Zay",
+        "my": "တောင်တိုဈေး"
+      }
+    }
+  },
+  {
+    "id": "hh_z_ngs_z",
+    "sourceGroupId": "hh_z",
+    "sourceMarketId": "ngs_z",
+    "sourceLabels": "nang si zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "HehoGroup",
+      "index": 7
+    },
+    "sourceDemo": {
+      "en": "Nang Si Zay",
+      "my": "နမ့်ဆီးဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Nang Si",
+        "my": "နမ့်ဆီး"
+      },
+      "name": {
+        "en": "Nang Si Zay",
+        "my": "နမ့်ဆီးဈေး"
+      }
+    }
+  },
+  {
+    "id": "hh_z_myin_kya_do",
+    "status": "approved",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "HehoGroup",
+      "index": 8
+    },
+    "sourceDemo": {
+      "en": "Myin Kya Do Zay",
+      "my": "မြင်းကျဒိုးဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Myin Kya Do",
+        "my": "မြင်းကျဒိုး"
+      },
+      "name": {
+        "en": "Myin Kya Do Zay",
+        "my": "မြင်းကျဒိုးဈေး"
+      }
+    },
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix."
+  },
+  {
+    "id": "hh_z_kog_z",
+    "sourceGroupId": "hh_z",
+    "sourceMarketId": "kog_z",
+    "sourceLabels": "koug zay",
+    "sourceComment": "ကျုံးဈေး",
+    "status": "approved",
+    "myanmarBasis": "source-comment",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "HehoGroup",
+      "index": 9
+    },
+    "sourceDemo": {
+      "en": "Koug Zay",
+      "my": "ကျုံးဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Koug",
+        "my": "ကျုံး"
+      },
+      "name": {
+        "en": "Koug Zay",
+        "my": "ကျုံးဈေး"
+      }
+    }
+  },
+  {
+    "id": "hh_z_lkw_z",
+    "sourceGroupId": "hh_z",
+    "sourceMarketId": "lkw_z",
+    "sourceLabels": "loikaw zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "HehoGroup",
+      "index": 10
+    },
+    "sourceDemo": {
+      "en": "Loikaw Zay",
+      "my": "လွိုင်ကော်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Loikaw",
+        "my": "လွိုင်ကော်"
+      },
+      "name": {
+        "en": "Loikaw Zay",
+        "my": "လွိုင်ကော်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "hh_z_nsg_z",
+    "sourceGroupId": "hh_z",
+    "sourceMarketId": "nsg_z",
+    "sourceLabels": "nangsam zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "HehoGroup",
+      "index": 11
+    },
+    "sourceDemo": {
+      "en": "Nang San Zay",
+      "my": "နမ့်စန်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Nang San",
+        "my": "နမ့်စန်"
+      },
+      "name": {
+        "en": "Nang San Zay",
+        "my": "နမ့်စန်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "hh_z_pd_z",
+    "sourceGroupId": "hh_z",
+    "sourceMarketId": "pd_z",
+    "sourceLabels": "paung daw zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "HehoGroup",
+      "index": 12
+    },
+    "sourceDemo": {
+      "en": "Paung Daw Zay",
+      "my": "ပေါင်တော်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Paung Daw",
+        "my": "ပေါင်တော်"
+      },
+      "name": {
+        "en": "Paung Daw Zay",
+        "my": "ပေါင်တော်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "hh_z_ktlo_z",
+    "sourceGroupId": "hh_z",
+    "sourceMarketId": "ktlo_z",
+    "sourceLabels": {
+      "ktlo_z_eng": "kyauk ta lone zay",
+      "ktlo_z_mm": "ကျောက်တလုံး"
+    },
+    "status": "approved",
+    "myanmarBasis": "source-label",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "HehoGroup",
+      "index": 13
+    },
+    "sourceDemo": {
+      "en": "Kyauk Ta Lone Zay",
+      "my": "ကျောက်တလုံးဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Kyauk Ta Lone",
+        "my": "ကျောက်တလုံး"
+      },
+      "name": {
+        "en": "Kyauk Ta Lone Zay",
+        "my": "ကျောက်တလုံးဈေး"
+      }
+    }
+  },
+  {
+    "id": "hh_z_ll_z",
+    "sourceGroupId": "hh_z",
+    "sourceMarketId": "ll_z",
+    "sourceLabels": "loi len zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "HehoGroup",
+      "index": 14
+    },
+    "sourceDemo": {
+      "en": "Loi Len Zay",
+      "my": "လွိုင်လင်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Loi Len",
+        "my": "လွိုင်လင်"
+      },
+      "name": {
+        "en": "Loi Len Zay",
+        "my": "လွိုင်လင်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "hh_z_nty_z",
+    "sourceGroupId": "hh_z",
+    "sourceMarketId": "nty_z",
+    "sourceLabels": "naung tayar zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "HehoGroup",
+      "index": 15
+    },
+    "sourceDemo": {
+      "en": "Naung Tayar Zay",
+      "my": "နောင်တရားဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Naung Tayar",
+        "my": "နောင်တရား"
+      },
+      "name": {
+        "en": "Naung Tayar Zay",
+        "my": "နောင်တရားဈေး"
+      }
+    }
+  },
+  {
+    "id": "hh_z_kyg_z",
+    "sourceGroupId": "hh_z",
+    "sourceMarketId": "kyg_z",
+    "sourceLabels": "kyout guu zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "HehoGroup",
+      "index": 16
+    },
+    "sourceDemo": {
+      "en": "Kyout Guu Zay",
+      "my": "ကျောက်ဂူဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Kyout Guu",
+        "my": "ကျောက်ဂူ"
+      },
+      "name": {
+        "en": "Kyout Guu Zay",
+        "my": "ကျောက်ဂူဈေး"
+      }
+    }
+  },
+  {
+    "id": "hh_z_mgk_z",
+    "sourceGroupId": "hh_z",
+    "sourceMarketId": "mgk_z",
+    "sourceLabels": {
+      "mgk_z_eng": "mongkaing zay",
+      "mgk_z_mm": "မိုင်းကိုင်"
+    },
+    "status": "approved",
+    "myanmarBasis": "source-label",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "HehoGroup",
+      "index": 17
+    },
+    "sourceDemo": {
+      "en": "Mongkaing Zay",
+      "my": "မိုင်းကိုင်ဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Mongkaing",
+        "my": "မိုင်းကိုင်"
+      },
+      "name": {
+        "en": "Mongkaing Zay",
+        "my": "မိုင်းကိုင်ဈေး"
+      }
+    }
+  },
+  {
+    "id": "hh_z_prl_z",
+    "sourceGroupId": "hh_z",
+    "sourceMarketId": "prl_z",
+    "sourceLabels": "phar lae zay",
+    "status": "approved",
+    "myanmarBasis": "unverified-transliteration",
+    "reason": "User directed use of both demo en/my values as correct; town labels derived by removing trailing Zay/ဈေး suffix.",
+    "source": "demo-group.json",
+    "sourceRow": {
+      "group": "HehoGroup",
+      "index": 18
+    },
+    "sourceDemo": {
+      "en": "Phar Lae Zay",
+      "my": "ဖာလဲဈေး"
+    },
+    "approvedLabels": {
+      "town": {
+        "en": "Phar Lae",
+        "my": "ဖာလဲ"
+      },
+      "name": {
+        "en": "Phar Lae Zay",
+        "my": "ဖာလဲဈေး"
+      }
+    }
+  }
+]
