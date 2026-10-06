@@ -90,6 +90,45 @@ Both index fields equal the CAL-2 position, not a day of month or an offset from
 the anchor. Original group IDs remain stable; market IDs are prefixed with
 their original group ID to eliminate collisions.
 
+## Holiday-aware policy lookup (CAL-7, incomplete data)
+
+`getMarketDay` remains unchanged. Use the separate API when you need manually
+configured holiday closures:
+
+```typescript
+import { getMarketDayWithHolidays, gregorianToJdn } from 'shan-market-day';
+
+const day = getMarketDayWithHolidays(gregorianToJdn(2026, 10, 26));
+// day.schedule: the unchanged five-day rotation
+// day.holidays: matching bilingual holiday records and source evidence
+// day.markets: { market, status, decisions } for each scheduled market
+```
+
+Statuses are `closedByPolicy`, `scheduled`, or `unknown`; none verifies actual
+opening. Confirmed applicable closures win. Tentative potential closures or
+incomplete/missing coverage produce `unknown` unless a confirmed closure applies.
+Only complete coverage without a closure produces `scheduled`.
+
+Edit `data/gazetted-holidays.json` manually, then rebuild. Inclusive Gregorian
+date ranges are converted by our helper, without lunar inference or scraping.
+All listed days of Thingyan/New Year, Kasone, Waso, Thadingyut and Tasaungmone
+have closure defaults. Other holidays have no default closure.
+Within a holiday, market overrides beat group overrides, which beat its global
+Boolean default. An exemption cannot cancel a different overlapping holiday's
+closure. Decisions retain reasons, holiday confirmation, and source references.
+
+For custom reviewed data, call `createHolidayCalendar(dataset).getMarketDay(jdn)`.
+The factory validates and snapshots the input; returned results are frozen.
+See the [holiday data contract](TECHNICAL.md#holiday-data-and-policy-contract-cal-7).
+
+**Coverage is deliberately incomplete for both 2026 and 2027.** The bundled
+seed includes the official MOFA 2026 list and sourced festival forecasts.
+MOFA and qppstudio disagree about extra 2026 festival days: those extras are
+tentative, as are 2027 forecasts awaiting official confirmation. Missing
+holidays and source discrepancies must be reviewed before changing `complete`
+to `true`. CAL-7 is not finished or release-approved. The demo now shows policy
+statuses, matching holiday labels, reasons, and links to the evidence.
+
 ## mycal integration and Gregorian-to-JDN conversion
 
 The dependency is now `mycal` **2.2.0**, the published npm version. Upstream
@@ -131,7 +170,8 @@ positiveModulo(anchorGroupIndex + inputJdn - anchorJdn, cycleLengthDays)
 
 It handles earlier dates and month/year transitions. Holidays, closures, and
 postponements do not shift or reset this base schedule. Results **do not confirm
-that a market is open**. Exception overrides and live opening status are deferred.
+that a market is open**. Holiday closure overrides are available through the
+separate policy API; live opening verification and postponements remain deferred.
 
 ## Label review and release gate
 

@@ -2,6 +2,8 @@ import cycleData from '../market-cycle.json';
 import anchorData from '../data/anchor.json';
 import marketData from '../data/markets.json';
 export { Mycal } from 'mycal';
+export { createHolidayCalendar, getMarketDayWithHolidays } from './holidays';
+export type { HolidayDataset, Holiday, HolidaySource, ClosureOverride, MarketHolidayStatus, HolidayDecision, HolidayMarket, HolidayMarketDayResult } from './holidays';
 
 export type Locale = 'en' | 'my';
 export type GroupId = 'tgi_z' | 'tnn_z' | 'snn_z' | 'nns_z' | 'hh_z';

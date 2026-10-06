@@ -32,11 +32,87 @@ flowchart TD
 `mycal` is not used to calculate the market cycle or Gregorian JDN. Its
 `Mycal` class is re-exported for optional Myanmar calendar features.
 
+## Holiday data and policy contract (CAL-7)
+
+`src/holidays.ts` adds a separate policy layer. `getMarketDayWithHolidays(jdn)`
+returns `{ schedule, coverageComplete, holidays, markets }`; `schedule` is the
+unmodified v1 lookup. Each policy market is `{ market, status, decisions }`.
+Each decision includes the matching holiday, effective `closesMarkets`,
+bilingual `reason`, and `sourceReference`. All results are deeply frozen.
+
+`createHolidayCalendar(dataset)` validates a snapshot once and provides the same
+lookup with caller-supplied manual data. The bundled calendar is initialized on
+first use. Nothing scrapes sources at runtime; `mycal` does not infer holidays.
+
+The manual JSON contract is:
+
+```typescript
+{
+  schemaVersion: 1,
+  country: 'MM',
+  coverage: [{ startDate: '2026-01-01', endDate: '2026-12-31', complete: false }],
+  holidays: [{
+    id: '2026-example',
+    name: { en: 'Example festival', my: 'ပွဲတော်' },
+    startDate: '2026-10-25',
+    endDate: '2026-10-27',
+    confirmation: 'confirmed', // or 'tentative'
+    source: {
+      title: 'Source title',
+      url: 'https://example.com/holidays',
+      retrievedOn: '2026-10-06',
+      kind: 'official' // or 'thirdParty'
+    },
+    marketClosure: {
+      closesMarkets: true,
+      reason: { en: 'Festival closure policy', my: 'ပွဲတော် ဈေးပိတ်မူဝါဒ' },
+      overrides: [{
+        scope: 'groups',
+        groupIds: ['hh_z'],
+        closesMarkets: false,
+        reason: { en: 'Manual exemption', my: 'ဈေးပိတ်မူဝါဒမှ ကင်းလွတ်ခြင်း' },
+        sourceReference: 'https://example.com/local-policy'
+      }]
+    }
+  }]
+}
+```
+
+Market overrides use `scope: 'markets'` and `marketIds`, never `groupIds`.
+Use stable IDs from the existing market/cycle data, not localized names.
+Dates must be valid `YYYY-MM-DD`, years 1–9999, with inclusive non-reversed
+ranges. Holiday IDs must be unique; names and reasons require both languages.
+Sources require a title, HTTP(S) URL, retrieval date and explicit source kind.
+Override source references must also be HTTP(S) URLs.
+Coverage intervals must not overlap, and every holiday must fit wholly inside a
+declared interval; intervals may be incomplete. Unknown fields, invalid targets,
+missing evidence and contradictory equally specific overrides are errors.
+
+Per holiday, market > group > global default. Across holidays, any confirmed
+effective closure wins; otherwise a tentative effective closure yields unknown.
+Without a closure, a complete covered date is scheduled; an incomplete or
+uncovered date is unknown. A tentative no-closure rule does not by itself
+introduce uncertainty on a complete covered date. No status promises live
+operation. No holiday shifts or resets the five-day cycle.
+
+The current seed deliberately leaves both years incomplete. The official
+[MOFA 2026 list](https://www.mofa.gov.mm/about-myanmar/public-holidays/) provides
+confirmed records. Extra 2026 festival days and 2027 festival forecasts from
+[qppstudio](https://www.qppstudio.net/public-holidays/myanmar-burma.htm) are
+tentative pending source reconciliation/official confirmation. Both were
+retrieved on 2026-10-06. The MOFA list alone does not establish that all special
+or subsequently announced holidays were captured. Missing periods (especially the end of 2027) and supplemental holiday
+completeness still require manual completion and review.
+The existing label release gate does not certify holiday coverage.
+
 ## Source layout
 
 | Path | Responsibility |
 |---|---|
 | `src/index.ts` | Public functions/types, data validation, frozen cycle/anchor exports |
+| `src/holidays.ts` | Validated holiday policy and separate per-market lookup |
+| `data/gazetted-holidays.json` | Manual holiday records, sources, coverage and closure overrides |
+| `test/holidays.test.mjs` | Holiday boundaries, precedence, uncertainty and validation |
 | `market-cycle.json` | Ordered five groups and calendar representative IDs |
 | `data/anchor.json` | Gregorian reference date, anchor group, JDN, provenance |
 | `data/markets.json` | Runtime market records |
@@ -282,18 +358,22 @@ date-to-group assignments and the continuous month boundary. They are two pages
 from one calendar with unverified original publication provenance, not
 independent historical sources.
 
-The automated suite contains **13 tests**, covering the anchor and group wrap,
+The automated suite contains **23 tests**: the original 13 cover the anchor and group wrap,
 all pictured dates, negative offsets and month/year boundaries, safe-integer
 extremes, invalid input, complete approved bilingual groups, authoritative demo
 membership, immutability, both module formats, Gregorian reference JDNs and leap
-rules, mycal smoke integration, and approval snapshots. ESM/CommonJS type
+rules, mycal smoke integration, and approval snapshots. Ten holiday tests cover
+closure defaults, specificity, overlapping exemptions, tentative evidence,
+coverage, inclusive year boundaries, schema errors and immutable snapshots.
+ESM/CommonJS type
 fixtures compile as part of `npm test`. The separate demo build checks its
 TypeScript and production bundling; it is not a browser interaction test.
 
-Market results are **scheduled rotation only**. Closures, holidays and
-postponements do not reset the base cycle. Live opening status, exception
-overrides, further languages and universal historical continuity are not
-implemented. Arithmetic support for a date is not evidence of operation then.
+`getMarketDay` results are **scheduled rotation only**. The separate CAL-7 API
+adds manual holiday closure policies and group/market exemptions without
+resetting that base cycle. Live opening verification, postponements, further
+languages and universal historical continuity are not implemented. Arithmetic
+support for a date is not evidence of operation then.
 
 ## Requirements ownership
 
@@ -304,6 +384,7 @@ implemented. Arithmetic support for a date is not evidence of operation then.
 | CAL-4 | Scheduled-only policy and deferred exceptions |
 | CAL-5 | Reviewed bilingual records and ID/membership reconciliation |
 | CAL-6 | Lookup API, conversion integration and library packaging |
+| CAL-7 | Manual holiday evidence and optional closure policy; coverage/review incomplete |
 
 Later explicit user decisions supersede earlier mmcal-only, draft-label and
 original-sample-preservation proposals. Current code and corrected demo data are

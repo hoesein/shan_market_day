@@ -8,6 +8,7 @@
     "build": "tsc --noEmit && vite build"
   },
   "dependencies": {
+    "mycal": "github:hoesein/mycal#v2.3.1-shan.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "shan-market-day": "file:.."

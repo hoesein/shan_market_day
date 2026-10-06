@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import { getMarketDay, gregorianToJdn, marketAnchor, type Locale } from 'shan-market-day';
+import { getMarketDay, getMarketDayWithHolidays, gregorianToJdn, marketAnchor, Mycal, type Locale } from 'shan-market-day';
 import './style.css';
 
 const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
@@ -23,6 +23,7 @@ function App() {
     : gregorianToJdn(nextYear, nextMonth, 1) - firstJdn;
   const jdn = gregorianToJdn(year, month, selectedDay);
   const result = getMarketDay(jdn);
+  const holidayResult = getMarketDayWithHolidays(jdn);
   const title = new Intl.DateTimeFormat('en', { month: 'long', year: 'numeric', timeZone: 'UTC' })
     .format(new Date(`${dateLabel(year, month, 1)}T12:00:00Z`));
 
@@ -50,7 +51,7 @@ function App() {
         <div>
           <p className="eyebrow">Shan Market Day · Calculation preview</p>
           <h1>Five-day market calendar</h1>
-          <p>Scheduled rotation only. This does not confirm that a market is open.</p>
+          <p>Scheduled rotation and manual holiday policy. This does not confirm that a market is open.</p>
         </div>
         <label>Market labels
           <select value={locale} onChange={event => setLocale(event.target.value === 'en' ? 'en' : 'my')}>
@@ -75,10 +76,16 @@ function App() {
           <div className="grid">
             {weekdays.map(day => <div className="weekday" key={day}>{day}</div>)}
             {Array.from({ length: startWeekday }, (_, index) => <div className="empty" key={`empty-${index}`} />)}
+
+
             {Array.from({ length: days }, (_, index) => {
               const day = index + 1;
+              const mmDay = new Mycal(`${dateLabel(year, month, day)}`);
               const dayJdn = firstJdn + index;
               const market = getMarketDay(dayJdn);
+              const holidayDay = getMarketDayWithHolidays(dayJdn);
+              const closedCount = holidayDay.markets.filter(entry => entry.status === 'closedByPolicy').length;
+              const unknownCount = holidayDay.markets.filter(entry => entry.status === 'unknown').length;
               return (
                 <button key={day} className={`day group-${market.groupOrder} ${day === selectedDay ? 'selected' : ''}`}
                   aria-pressed={day === selectedDay}
@@ -86,11 +93,19 @@ function App() {
                   onClick={() => setSelectedDay(day)}>
                   <strong>{day}</strong>
                   <span>{groupNames[market.groupOrder]}</span>
+
+                  {/* <small>Myanmar Day {getMyanmarDay(dayJdn)}</small> */}
+                  <small>{mmDay.month.my} {mmDay.day.mp.my} <b>{mmDay.day.fd.my}</b> ရက်</small>
                   <small>JDN {dayJdn}</small>
+                  {closedCount > 0 && <small>{closedCount} closed by policy</small>}
+                  {unknownCount > 0 && <small>{unknownCount} policy uncertain</small>}
+                  {closedCount === 0 && unknownCount === 0 && <small>Scheduled</small>}
                   {dayJdn === marketAnchor.jdn && <b className="anchor">Anchor</b>}
                 </button>
               );
             })}
+
+
           </div>
           <div className="legend">{groupNames.map((name, index) =>
             <span className={`group-${index}`} key={name}>{index}: {name}</span>)}</div>
@@ -107,8 +122,17 @@ function App() {
             <li>Scheduled group <code>{result.groupId} / {result.group}</code></li>
           </ol>
           <p><strong>{result.markets.length} markets</strong> · labels {result.datasetStatus}</p>
-          <ul className="markets">{result.markets.map(market =>
-            <li key={market.id}><span>{market.name[locale]}</span><small>{market.id}</small></li>)}</ul>
+          <p>Holiday coverage: {holidayResult.coverageComplete ? 'complete' : 'incomplete — no opening guarantee'}</p>
+          {holidayResult.holidays.map(holiday =>
+            <p key={holiday.id}>{holiday.name[locale]} · {holiday.confirmation}
+              {' '}<a href={holiday.source.url} target="_blank" rel="noreferrer">Source</a></p>)}
+          <ul className="markets">{holidayResult.markets.map(entry =>
+            <li key={entry.market.id}>
+              <span>{entry.market.name[locale]} · {entry.status}</span><small>{entry.market.id}</small>
+              {entry.decisions.map(decision => <small key={decision.holiday.id}>
+                <a href={decision.sourceReference}>{decision.reason[locale]}</a>
+              </small>)}
+            </li>)}</ul>
         </aside>
       </div>
     </main>

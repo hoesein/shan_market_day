@@ -1,0 +1,810 @@
+{
+  "schemaVersion": 1,
+  "country": "MM",
+  "coverage": [
+    {
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "complete": false
+    },
+    {
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "complete": false
+    }
+  ],
+  "holidays": [
+    {
+      "id": "2026-new-year",
+      "name": {
+        "en": "New Year Holiday",
+        "my": "နှစ်သစ်ကူးနေ့"
+      },
+      "startDate": "2026-01-01",
+      "endDate": "2026-01-01",
+      "confirmation": "confirmed",
+      "source": {
+        "title": "MOFA public holidays 2026",
+        "url": "https://www.mofa.gov.mm/about-myanmar/public-holidays/",
+        "retrievedOn": "2026-10-06",
+        "kind": "official"
+      },
+      "marketClosure": {
+        "closesMarkets": false,
+        "reason": {
+          "en": "No default market closure",
+          "my": "မူလမူဝါဒအရ ဈေးမပိတ်ပါ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2026-independence",
+      "name": {
+        "en": "Independence Day",
+        "my": "လွတ်လပ်ရေးနေ့"
+      },
+      "startDate": "2026-01-04",
+      "endDate": "2026-01-04",
+      "confirmation": "confirmed",
+      "source": {
+        "title": "MOFA public holidays 2026",
+        "url": "https://www.mofa.gov.mm/about-myanmar/public-holidays/",
+        "retrievedOn": "2026-10-06",
+        "kind": "official"
+      },
+      "marketClosure": {
+        "closesMarkets": false,
+        "reason": {
+          "en": "No default market closure",
+          "my": "မူလမူဝါဒအရ ဈေးမပိတ်ပါ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2026-union",
+      "name": {
+        "en": "Union Day",
+        "my": "ပြည်ထောင်စုနေ့"
+      },
+      "startDate": "2026-02-12",
+      "endDate": "2026-02-12",
+      "confirmation": "confirmed",
+      "source": {
+        "title": "MOFA public holidays 2026",
+        "url": "https://www.mofa.gov.mm/about-myanmar/public-holidays/",
+        "retrievedOn": "2026-10-06",
+        "kind": "official"
+      },
+      "marketClosure": {
+        "closesMarkets": false,
+        "reason": {
+          "en": "No default market closure",
+          "my": "မူလမူဝါဒအရ ဈေးမပိတ်ပါ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2026-farmers",
+      "name": {
+        "en": "Peasants' Day",
+        "my": "တောင်သူလယ်သမားနေ့"
+      },
+      "startDate": "2026-03-02",
+      "endDate": "2026-03-02",
+      "confirmation": "confirmed",
+      "source": {
+        "title": "MOFA public holidays 2026",
+        "url": "https://www.mofa.gov.mm/about-myanmar/public-holidays/",
+        "retrievedOn": "2026-10-06",
+        "kind": "official"
+      },
+      "marketClosure": {
+        "closesMarkets": false,
+        "reason": {
+          "en": "No default market closure",
+          "my": "မူလမူဝါဒအရ ဈေးမပိတ်ပါ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2026-armed-forces",
+      "name": {
+        "en": "Armed Forces Day",
+        "my": "တပ်မတော်နေ့"
+      },
+      "startDate": "2026-03-27",
+      "endDate": "2026-03-27",
+      "confirmation": "confirmed",
+      "source": {
+        "title": "MOFA public holidays 2026",
+        "url": "https://www.mofa.gov.mm/about-myanmar/public-holidays/",
+        "retrievedOn": "2026-10-06",
+        "kind": "official"
+      },
+      "marketClosure": {
+        "closesMarkets": false,
+        "reason": {
+          "en": "No default market closure",
+          "my": "မူလမူဝါဒအရ ဈေးမပိတ်ပါ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2026-thingyan",
+      "name": {
+        "en": "Thingyan and Myanmar New Year holidays",
+        "my": "သင်္ကြန်နှင့် မြန်မာနှစ်သစ်ကူး ရုံးပိတ်ရက်များ"
+      },
+      "startDate": "2026-04-11",
+      "endDate": "2026-04-19",
+      "confirmation": "confirmed",
+      "source": {
+        "title": "MOFA public holidays 2026",
+        "url": "https://www.mofa.gov.mm/about-myanmar/public-holidays/",
+        "retrievedOn": "2026-10-06",
+        "kind": "official"
+      },
+      "marketClosure": {
+        "closesMarkets": true,
+        "reason": {
+          "en": "Myanmar New Year festival closure policy",
+          "my": "မြန်မာနှစ်သစ်ကူးပွဲတော် ဈေးပိတ်မူဝါဒ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2026-labour",
+      "name": {
+        "en": "Labour Day",
+        "my": "အလုပ်သမားနေ့"
+      },
+      "startDate": "2026-05-01",
+      "endDate": "2026-05-01",
+      "confirmation": "confirmed",
+      "source": {
+        "title": "MOFA public holidays 2026",
+        "url": "https://www.mofa.gov.mm/about-myanmar/public-holidays/",
+        "retrievedOn": "2026-10-06",
+        "kind": "official"
+      },
+      "marketClosure": {
+        "closesMarkets": false,
+        "reason": {
+          "en": "No default market closure",
+          "my": "မူလမူဝါဒအရ ဈေးမပိတ်ပါ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2026-kasone",
+      "name": {
+        "en": "Kasone Full Moon",
+        "my": "ကဆုန်လပြည့်နေ့"
+      },
+      "startDate": "2026-05-30",
+      "endDate": "2026-05-30",
+      "confirmation": "confirmed",
+      "source": {
+        "title": "MOFA public holidays 2026",
+        "url": "https://www.mofa.gov.mm/about-myanmar/public-holidays/",
+        "retrievedOn": "2026-10-06",
+        "kind": "official"
+      },
+      "marketClosure": {
+        "closesMarkets": true,
+        "reason": {
+          "en": "Kasone festival closure policy",
+          "my": "ကဆုန်ပွဲတော် ဈေးပိတ်မူဝါဒ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2026-martyrs",
+      "name": {
+        "en": "Martyrs' Day",
+        "my": "အာဇာနည်နေ့"
+      },
+      "startDate": "2026-07-19",
+      "endDate": "2026-07-19",
+      "confirmation": "confirmed",
+      "source": {
+        "title": "MOFA public holidays 2026",
+        "url": "https://www.mofa.gov.mm/about-myanmar/public-holidays/",
+        "retrievedOn": "2026-10-06",
+        "kind": "official"
+      },
+      "marketClosure": {
+        "closesMarkets": false,
+        "reason": {
+          "en": "No default market closure",
+          "my": "မူလမူဝါဒအရ ဈေးမပိတ်ပါ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2026-waso",
+      "name": {
+        "en": "Waso Full Moon",
+        "my": "ဝါဆိုလပြည့်နေ့"
+      },
+      "startDate": "2026-07-29",
+      "endDate": "2026-07-29",
+      "confirmation": "confirmed",
+      "source": {
+        "title": "MOFA public holidays 2026",
+        "url": "https://www.mofa.gov.mm/about-myanmar/public-holidays/",
+        "retrievedOn": "2026-10-06",
+        "kind": "official"
+      },
+      "marketClosure": {
+        "closesMarkets": true,
+        "reason": {
+          "en": "Waso festival closure policy",
+          "my": "ဝါဆိုပွဲတော် ဈေးပိတ်မူဝါဒ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2026-thadingyut",
+      "name": {
+        "en": "Thadingyut holidays",
+        "my": "သီတင်းကျွတ် ရုံးပိတ်ရက်များ"
+      },
+      "startDate": "2026-10-25",
+      "endDate": "2026-10-27",
+      "confirmation": "confirmed",
+      "source": {
+        "title": "MOFA public holidays 2026",
+        "url": "https://www.mofa.gov.mm/about-myanmar/public-holidays/",
+        "retrievedOn": "2026-10-06",
+        "kind": "official"
+      },
+      "marketClosure": {
+        "closesMarkets": true,
+        "reason": {
+          "en": "Thadingyut festival closure policy",
+          "my": "သီတင်းကျွတ်ပွဲတော် ဈေးပိတ်မူဝါဒ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2026-tasaungmone",
+      "name": {
+        "en": "Tasaungmone holidays",
+        "my": "တန်ဆောင်မုန်း ရုံးပိတ်ရက်များ"
+      },
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-24",
+      "confirmation": "confirmed",
+      "source": {
+        "title": "MOFA public holidays 2026",
+        "url": "https://www.mofa.gov.mm/about-myanmar/public-holidays/",
+        "retrievedOn": "2026-10-06",
+        "kind": "official"
+      },
+      "marketClosure": {
+        "closesMarkets": true,
+        "reason": {
+          "en": "Tasaungmone festival closure policy",
+          "my": "တန်ဆောင်မုန်းပွဲတော် ဈေးပိတ်မူဝါဒ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2026-national",
+      "name": {
+        "en": "National Day",
+        "my": "အမျိုးသားနေ့"
+      },
+      "startDate": "2026-12-04",
+      "endDate": "2026-12-04",
+      "confirmation": "confirmed",
+      "source": {
+        "title": "MOFA public holidays 2026",
+        "url": "https://www.mofa.gov.mm/about-myanmar/public-holidays/",
+        "retrievedOn": "2026-10-06",
+        "kind": "official"
+      },
+      "marketClosure": {
+        "closesMarkets": false,
+        "reason": {
+          "en": "No default market closure",
+          "my": "မူလမူဝါဒအရ ဈေးမပိတ်ပါ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2026-christmas",
+      "name": {
+        "en": "Christmas Day",
+        "my": "ခရစ္စမတ်နေ့"
+      },
+      "startDate": "2026-12-25",
+      "endDate": "2026-12-25",
+      "confirmation": "confirmed",
+      "source": {
+        "title": "MOFA public holidays 2026",
+        "url": "https://www.mofa.gov.mm/about-myanmar/public-holidays/",
+        "retrievedOn": "2026-10-06",
+        "kind": "official"
+      },
+      "marketClosure": {
+        "closesMarkets": false,
+        "reason": {
+          "en": "No default market closure",
+          "my": "မူလမူဝါဒအရ ဈေးမပိတ်ပါ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2026-thadingyut-extra",
+      "name": {
+        "en": "Additional Thadingyut holiday (unverified)",
+        "my": "သီတင်းကျွတ် အပိုရုံးပိတ်ရက်"
+      },
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-24",
+      "confirmation": "tentative",
+      "source": {
+        "title": "qppstudio rolling holiday list; not in MOFA list",
+        "url": "https://www.qppstudio.net/public-holidays/myanmar-burma.htm",
+        "retrievedOn": "2026-10-06",
+        "kind": "thirdParty"
+      },
+      "marketClosure": {
+        "closesMarkets": true,
+        "reason": {
+          "en": "Thadingyut festival closure policy",
+          "my": "သီတင်းကျွတ်ပွဲတော် ဈေးပိတ်မူဝါဒ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2026-tasaungmone-extra",
+      "name": {
+        "en": "Additional Tasaungmone holidays (unverified)",
+        "my": "တန်ဆောင်မုန်း အပိုရုံးပိတ်ရက်များ"
+      },
+      "startDate": "2026-11-21",
+      "endDate": "2026-11-22",
+      "confirmation": "tentative",
+      "source": {
+        "title": "qppstudio rolling holiday list; not in MOFA list",
+        "url": "https://www.qppstudio.net/public-holidays/myanmar-burma.htm",
+        "retrievedOn": "2026-10-06",
+        "kind": "thirdParty"
+      },
+      "marketClosure": {
+        "closesMarkets": true,
+        "reason": {
+          "en": "Tasaungmone festival closure policy",
+          "my": "တန်ဆောင်မုန်းပွဲတော် ဈေးပိတ်မူဝါဒ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2027-thingyan",
+      "name": {
+        "en": "Thingyan and Myanmar New Year holidays (forecast)",
+        "my": "သင်္ကြန်နှင့် မြန်မာနှစ်သစ်ကူး ရုံးပိတ်ရက်များ"
+      },
+      "startDate": "2027-04-10",
+      "endDate": "2027-04-18",
+      "confirmation": "tentative",
+      "source": {
+        "title": "qppstudio upcoming 2027 holidays; official confirmation pending",
+        "url": "https://www.qppstudio.net/public-holidays/myanmar-burma.htm",
+        "retrievedOn": "2026-10-06",
+        "kind": "thirdParty"
+      },
+      "marketClosure": {
+        "closesMarkets": true,
+        "reason": {
+          "en": "Myanmar New Year festival closure policy",
+          "my": "မြန်မာနှစ်သစ်ကူးပွဲတော် ဈေးပိတ်မူဝါဒ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2027-kasone",
+      "name": {
+        "en": "Kasone holidays (forecast)",
+        "my": "ကဆုန် ရုံးပိတ်ရက်များ"
+      },
+      "startDate": "2027-05-20",
+      "endDate": "2027-05-21",
+      "confirmation": "tentative",
+      "source": {
+        "title": "qppstudio upcoming 2027 holidays; official confirmation pending",
+        "url": "https://www.qppstudio.net/public-holidays/myanmar-burma.htm",
+        "retrievedOn": "2026-10-06",
+        "kind": "thirdParty"
+      },
+      "marketClosure": {
+        "closesMarkets": true,
+        "reason": {
+          "en": "Kasone festival closure policy",
+          "my": "ကဆုန်ပွဲတော် ဈေးပိတ်မူဝါဒ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2027-waso",
+      "name": {
+        "en": "Waso Full Moon (forecast)",
+        "my": "ဝါဆိုလပြည့်နေ့"
+      },
+      "startDate": "2027-07-18",
+      "endDate": "2027-07-18",
+      "confirmation": "tentative",
+      "source": {
+        "title": "qppstudio upcoming 2027 holidays; official confirmation pending",
+        "url": "https://www.qppstudio.net/public-holidays/myanmar-burma.htm",
+        "retrievedOn": "2026-10-06",
+        "kind": "thirdParty"
+      },
+      "marketClosure": {
+        "closesMarkets": true,
+        "reason": {
+          "en": "Waso festival closure policy",
+          "my": "ဝါဆိုပွဲတော် ဈေးပိတ်မူဝါဒ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2026-deepavali",
+      "name": {
+        "en": "Deepavali (date to be confirmed)",
+        "my": "ဒီပါဝလီနေ့"
+      },
+      "startDate": "2026-11-08",
+      "endDate": "2026-11-08",
+      "confirmation": "tentative",
+      "source": {
+        "title": "qppstudio rolling holiday list",
+        "url": "https://www.qppstudio.net/public-holidays/myanmar-burma.htm",
+        "retrievedOn": "2026-10-06",
+        "kind": "thirdParty"
+      },
+      "marketClosure": {
+        "closesMarkets": false,
+        "reason": {
+          "en": "No default market closure",
+          "my": "မူလမူဝါဒအရ ဈေးမပိတ်ပါ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2026-national-extra",
+      "name": {
+        "en": "Additional National Day holidays (unverified)",
+        "my": "အမျိုးသားနေ့ အပိုရုံးပိတ်ရက်များ"
+      },
+      "startDate": "2026-12-05",
+      "endDate": "2026-12-06",
+      "confirmation": "tentative",
+      "source": {
+        "title": "qppstudio rolling holiday list; not in MOFA list",
+        "url": "https://www.qppstudio.net/public-holidays/myanmar-burma.htm",
+        "retrievedOn": "2026-10-06",
+        "kind": "thirdParty"
+      },
+      "marketClosure": {
+        "closesMarkets": false,
+        "reason": {
+          "en": "No default market closure",
+          "my": "မူလမူဝါဒအရ ဈေးမပိတ်ပါ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2026-christmas-extra",
+      "name": {
+        "en": "Additional Christmas holidays (unverified)",
+        "my": "ခရစ္စမတ် အပိုရုံးပိတ်ရက်များ"
+      },
+      "startDate": "2026-12-26",
+      "endDate": "2026-12-27",
+      "confirmation": "tentative",
+      "source": {
+        "title": "qppstudio rolling holiday list; not in MOFA list",
+        "url": "https://www.qppstudio.net/public-holidays/myanmar-burma.htm",
+        "retrievedOn": "2026-10-06",
+        "kind": "thirdParty"
+      },
+      "marketClosure": {
+        "closesMarkets": false,
+        "reason": {
+          "en": "No default market closure",
+          "my": "မူလမူဝါဒအရ ဈေးမပိတ်ပါ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2027-new-year",
+      "name": {
+        "en": "New Year's Day",
+        "my": "နှစ်သစ်ကူးနေ့"
+      },
+      "startDate": "2027-01-01",
+      "endDate": "2027-01-01",
+      "confirmation": "tentative",
+      "source": {
+        "title": "qppstudio upcoming 2027 holidays; official confirmation pending",
+        "url": "https://www.qppstudio.net/public-holidays/myanmar-burma.htm",
+        "retrievedOn": "2026-10-06",
+        "kind": "thirdParty"
+      },
+      "marketClosure": {
+        "closesMarkets": false,
+        "reason": {
+          "en": "No default market closure",
+          "my": "မူလမူဝါဒအရ ဈေးမပိတ်ပါ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2027-independence",
+      "name": {
+        "en": "Independence Day",
+        "my": "လွတ်လပ်ရေးနေ့"
+      },
+      "startDate": "2027-01-04",
+      "endDate": "2027-01-04",
+      "confirmation": "tentative",
+      "source": {
+        "title": "qppstudio upcoming 2027 holidays; official confirmation pending",
+        "url": "https://www.qppstudio.net/public-holidays/myanmar-burma.htm",
+        "retrievedOn": "2026-10-06",
+        "kind": "thirdParty"
+      },
+      "marketClosure": {
+        "closesMarkets": false,
+        "reason": {
+          "en": "No default market closure",
+          "my": "မူလမူဝါဒအရ ဈေးမပိတ်ပါ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2027-karen-new-year",
+      "name": {
+        "en": "Karen New Year",
+        "my": "ကရင်နှစ်သစ်ကူးနေ့"
+      },
+      "startDate": "2027-01-08",
+      "endDate": "2027-01-08",
+      "confirmation": "tentative",
+      "source": {
+        "title": "qppstudio upcoming 2027 holidays; official confirmation pending",
+        "url": "https://www.qppstudio.net/public-holidays/myanmar-burma.htm",
+        "retrievedOn": "2026-10-06",
+        "kind": "thirdParty"
+      },
+      "marketClosure": {
+        "closesMarkets": false,
+        "reason": {
+          "en": "No default market closure",
+          "my": "မူလမူဝါဒအရ ဈေးမပိတ်ပါ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2027-chinese-new-year",
+      "name": {
+        "en": "Chinese New Year",
+        "my": "တရုတ်နှစ်သစ်ကူးနေ့"
+      },
+      "startDate": "2027-02-06",
+      "endDate": "2027-02-06",
+      "confirmation": "tentative",
+      "source": {
+        "title": "qppstudio upcoming 2027 holidays; official confirmation pending",
+        "url": "https://www.qppstudio.net/public-holidays/myanmar-burma.htm",
+        "retrievedOn": "2026-10-06",
+        "kind": "thirdParty"
+      },
+      "marketClosure": {
+        "closesMarkets": false,
+        "reason": {
+          "en": "No default market closure",
+          "my": "မူလမူဝါဒအရ ဈေးမပိတ်ပါ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2027-union",
+      "name": {
+        "en": "Union Day",
+        "my": "ပြည်ထောင်စုနေ့"
+      },
+      "startDate": "2027-02-12",
+      "endDate": "2027-02-12",
+      "confirmation": "tentative",
+      "source": {
+        "title": "qppstudio upcoming 2027 holidays; official confirmation pending",
+        "url": "https://www.qppstudio.net/public-holidays/myanmar-burma.htm",
+        "retrievedOn": "2026-10-06",
+        "kind": "thirdParty"
+      },
+      "marketClosure": {
+        "closesMarkets": false,
+        "reason": {
+          "en": "No default market closure",
+          "my": "မူလမူဝါဒအရ ဈေးမပိတ်ပါ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2027-farmers",
+      "name": {
+        "en": "Farmers' Day and holiday",
+        "my": "တောင်သူလယ်သမားနေ့နှင့် ရုံးပိတ်ရက်"
+      },
+      "startDate": "2027-03-01",
+      "endDate": "2027-03-02",
+      "confirmation": "tentative",
+      "source": {
+        "title": "qppstudio upcoming 2027 holidays; official confirmation pending",
+        "url": "https://www.qppstudio.net/public-holidays/myanmar-burma.htm",
+        "retrievedOn": "2026-10-06",
+        "kind": "thirdParty"
+      },
+      "marketClosure": {
+        "closesMarkets": false,
+        "reason": {
+          "en": "No default market closure",
+          "my": "မူလမူဝါဒအရ ဈေးမပိတ်ပါ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2027-tabaung",
+      "name": {
+        "en": "Tabaung Full Moon",
+        "my": "တပေါင်းလပြည့်နေ့"
+      },
+      "startDate": "2027-03-22",
+      "endDate": "2027-03-22",
+      "confirmation": "tentative",
+      "source": {
+        "title": "qppstudio upcoming 2027 holidays; official confirmation pending",
+        "url": "https://www.qppstudio.net/public-holidays/myanmar-burma.htm",
+        "retrievedOn": "2026-10-06",
+        "kind": "thirdParty"
+      },
+      "marketClosure": {
+        "closesMarkets": false,
+        "reason": {
+          "en": "No default market closure",
+          "my": "မူလမူဝါဒအရ ဈေးမပိတ်ပါ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2027-armed-forces",
+      "name": {
+        "en": "Armed Forces Day",
+        "my": "တပ်မတော်နေ့"
+      },
+      "startDate": "2027-03-27",
+      "endDate": "2027-03-27",
+      "confirmation": "tentative",
+      "source": {
+        "title": "qppstudio upcoming 2027 holidays; official confirmation pending",
+        "url": "https://www.qppstudio.net/public-holidays/myanmar-burma.htm",
+        "retrievedOn": "2026-10-06",
+        "kind": "thirdParty"
+      },
+      "marketClosure": {
+        "closesMarkets": false,
+        "reason": {
+          "en": "No default market closure",
+          "my": "မူလမူဝါဒအရ ဈေးမပိတ်ပါ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2027-labour",
+      "name": {
+        "en": "Labour Day",
+        "my": "အလုပ်သမားနေ့"
+      },
+      "startDate": "2027-05-01",
+      "endDate": "2027-05-01",
+      "confirmation": "tentative",
+      "source": {
+        "title": "qppstudio upcoming 2027 holidays; official confirmation pending",
+        "url": "https://www.qppstudio.net/public-holidays/myanmar-burma.htm",
+        "retrievedOn": "2026-10-06",
+        "kind": "thirdParty"
+      },
+      "marketClosure": {
+        "closesMarkets": false,
+        "reason": {
+          "en": "No default market closure",
+          "my": "မူလမူဝါဒအရ ဈေးမပိတ်ပါ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2027-eid",
+      "name": {
+        "en": "Eid ul Adha (date to be confirmed)",
+        "my": "အိဒ်အလ်အဒ်ဟာနေ့"
+      },
+      "startDate": "2027-05-17",
+      "endDate": "2027-05-17",
+      "confirmation": "tentative",
+      "source": {
+        "title": "qppstudio upcoming 2027 holidays; official confirmation pending",
+        "url": "https://www.qppstudio.net/public-holidays/myanmar-burma.htm",
+        "retrievedOn": "2026-10-06",
+        "kind": "thirdParty"
+      },
+      "marketClosure": {
+        "closesMarkets": false,
+        "reason": {
+          "en": "No default market closure",
+          "my": "မူလမူဝါဒအရ ဈေးမပိတ်ပါ"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": "2027-martyrs",
+      "name": {
+        "en": "Martyrs' Day",
+        "my": "အာဇာနည်နေ့"
+      },
+      "startDate": "2027-07-19",
+      "endDate": "2027-07-19",
+      "confirmation": "tentative",
+      "source": {
+        "title": "qppstudio upcoming 2027 holidays; official confirmation pending",
+        "url": "https://www.qppstudio.net/public-holidays/myanmar-burma.htm",
+        "retrievedOn": "2026-10-06",
+        "kind": "thirdParty"
+      },
+      "marketClosure": {
+        "closesMarkets": false,
+        "reason": {
+          "en": "No default market closure",
+          "my": "မူလမူဝါဒအရ ဈေးမပိတ်ပါ"
+        },
+        "overrides": []
+      }
+    }
+  ]
+}

@@ -36,7 +36,7 @@
     "prepublishOnly": "npm run check:release && npm test"
   },
   "dependencies": {
-    "mycal": "2.2.0"
+    "mycal": "github:hoesein/mycal#v2.3.1-shan.1"
   },
   "devDependencies": {
     "tsup": "^8.5.0",
